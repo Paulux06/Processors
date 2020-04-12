@@ -1,0 +1,43 @@
+#documentation:
+#
+#bases en python:
+#    -conditions:
+#        if condition:
+#            code dans le if
+#        code en dehors du if
+#
+#    -boucle for:
+#        for i in range(min, max):
+#            code dans la boucle
+#        code en dehors de la boucle
+#
+#    -boucle while:
+#        while condition:
+#            code dans le while
+#        code en dehors du while
+#
+#    -déclarer une variable:
+#        nom_de_variable = valeur
+#
+# Et pour faire des commentaires,
+# il faut mettre un # devant.
+#
+#fonctions que tu peut utiliser:
+#    - forward() [pour avancer d'un bloc]
+#    - backward() [pour reculer d'un bloc]
+#    - turnRight() [pour tourner a droite]
+#    - turnLeft() [pour tourner a gauche]
+#    - random(min, max) [pour avoir un nombre random]
+#    - isAppleNear() [True ou False si il a une pomme a cote]
+#
+#Pour ce qui est de l'editeur:
+#    tu peut scroll avec la molette
+#    et tu peut scroll horizontalement avec SHIFT+molette
+#
+# Un petit exemple:
+
+if isAppleNear():
+    forward()
+else:
+    backward()
+    turnLeft()
